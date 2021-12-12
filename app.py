@@ -206,7 +206,7 @@ def packet_send(i, receiver_name, file_name):
 
                 # we sent all of the packets
                 if len(file_packets) == 0:
-                    print(f"File is sent to {receiver_name}")
+                    print(f"File {file_name} is sent to {receiver_name}")
 
                     # reset received acknowledgements and packets to send
                     received_acks = set()
